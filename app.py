@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # load data
-data = pd.read_csv("employee_dataset.csv")
+data = pd.read_csv("Employee_Dataset.csv")
 
 # cleaning
 data["age"] = pd.to_numeric(data["age"], errors="coerce")
